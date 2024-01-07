@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <header className="App-header">
-          <h1>Simple TODO App</h1>
+          <h1>RAJ TODO App</h1>
         </header>
         <main className="App-main">
           <TodoComponent />
