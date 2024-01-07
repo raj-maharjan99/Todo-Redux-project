@@ -1,0 +1,67 @@
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+/* Todo component styles */
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.todo-input button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+}
+
+.todo-input button:hover {
+  background-color: #388e3c;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list li:last-child {
+  border-bottom: none;
+}
